@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#BarraCima {
+  width: 100%;
+  background-color: black;
+  height: 120px;
+  position: fixed;
+
+}
+
+#BarraCima img {
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#BarraCima a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: -200px;
+}
+
+#BarraCima button {
+  background-color: #222222;
+  border: none;
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 15px;
+  margin-left: 1100px;
+  margin-top: -100px;
+}
+
+#BarraCima button:hover {
+  background-color: #53545b;
+  transition: 0.5s;
+}
+
+#links {
+  background-color: white;
+  padding: 50px;
+}
+
+#links a {
+  color: black;
+  display: inline-block;
+  margin-top: 80px;
+  margin-right: 100px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#links a:hover {
+  color: #005b8e;
+  transition: 0.3s;
+}
+
+#links hr {
+  background-color: #d9d9d9;
+  height: 1px;
+  margin-top: 10px;
+  width: 1950px;
+  margin-left: -100px;
+
+}
+
+.camisa img {
+  width: 200px;
+  border-radius: 5px;
+  margin-left: 60px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+
+#rodape {
+  background-color: black;
+  height: 350px;
+  margin-top: 200px;
+  color: white;
+  padding-left: 150px;
+
+}
+
+#rodape p {
+  margin-left: 280px;
+  margin-top: 60px;
+}
+
+#rodape h2 {
+  margin-left: 350px;
+  margin-top: 50px;
+}
+
+#rodape img {
+  margin-right: 100px;
+  width: 200px;
+  margin-top: 100px;
+}
+
+#linksRodape {
+  margin-left: 330px;
+  margin-top: -100px;
+}
+
+#linksRodape a {
+  padding-left: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.camisa {
+  box-shadow: 0px 0px 10px 0px;
+  border-radius: 10px;
+  width: 300px;
+  margin-left: 250px;
+  margin-top: 50px;
+  display: inline-block;
+  height: 450px;
+}
+
+.camisa img:hover {
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+
+.camisa h3 {
+  margin-left: 90px;
+  margin-top: 10px;
+  width: 150px;
+  color: green;
+  text-decoration: none;
+}
+
+.riscado h3 {
+  color: red;
+  text-decoration: line-through;
+
+}
+
+.camisa a {
+  text-decoration: none;
+}
+
+.camisa button {
+  border: none;
+  background-color: #343434;
+  cursor: pointer;
+  padding: 20px;
+  margin-left: 80px;
+  margin-top: 5px;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+}
+
+.camisa button:hover {
+  background-color: #194667;
+  transition: 0.3s;
+}

@@ -1,0 +1,182 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#BarraCima {
+  width: 100%;
+  background-color: black;
+  height: 120px;
+  position: fixed;
+
+}
+#BarraCima img {
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#BarraCima a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: -200px;
+}
+
+#BarraCima button {
+  background-color: #222222;
+  border: none;
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 15px;
+  margin-left: 1100px;
+  margin-top: -100px;
+}
+
+#BarraCima button:hover {
+  background-color: #53545b;
+  transition: 0.5s;
+}
+
+#links {
+  background-color: white;
+  padding: 50px;
+}
+
+#links a {
+  color: black;
+  display: inline-block;
+  margin-top: 80px;
+  margin-right: 100px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#links a:hover {
+  color: #005b8e;
+  transition: 0.3s;
+}
+
+#links hr {
+  background-color: #d9d9d9;
+  height: 1px;
+  margin-top: 10px;
+  width: 1950px;
+  margin-left: -100px;
+
+}
+
+#rodape {
+  background-color: black;
+  height: 350px;
+  margin-top: 600px;
+  color: white;
+  padding-left: 150px;
+
+}
+
+#rodape p {
+  margin-left: 280px;
+  margin-top: 60px;
+}
+
+#rodape h2 {
+  margin-left: 350px;
+  margin-top: 50px;
+}
+
+#rodape img {
+  margin-right: 100px;
+  width: 200px;
+  margin-top: 100px;
+}
+
+#linksRodape {
+  margin-left: 330px;
+  margin-top: -100px;
+}
+
+#linksRodape a {
+  padding-left: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+#detalhes img {
+  width: 600px;
+  margin-left: 350px;
+  border-radius: 10px;
+  display: block;
+  margin-top: -500px;
+}
+
+#mudarImagem img {
+  width: 150px;
+  margin-left: 150px;
+  display: block;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+#sobreCamisa {
+  margin-left: 1000px;
+}
+
+#sobreCamisa h2 {
+  margin-top: -600px;
+  color: #192c53;
+}
+
+#sobreCamisa h1 {
+  margin-top: 30px;
+  color: #192c53;
+}
+
+#escolherTamanho input[type="radio"] {
+  margin-left: 1000px;
+  margin-top: 50px;
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+
+#escolherTamanho h1 {
+  margin-left: 1000px;
+  margin-top: 20px;
+  font-size: 30px;
+  color: #192c53;
+}
+
+#escolherTamanho h3 {
+  margin-left: 1050px;
+  margin-top: -25px;
+  font-size: 20px;
+}
+
+.comprar button {
+  border: none;
+  border-radius: 5px;
+  background-color: #192c53;
+  color: white;
+  width: 250px;
+  margin-left: 1000px;
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.comprar button:hover {
+  background-color: #343434;
+  transition: 0.3s;
+}
